@@ -1,0 +1,65 @@
+import gym
+import numpy as np
+import tensorflow as tf
+from tensorflow.keras import models, layers, optimizers
+
+# Calcular recompensa total por episodio
+def calcular_recompensa(estado, colision, alcanzado):
+    if colision:
+        return -100  # Penalización fuerte por chocar
+    elif alcanzado:
+        return 100  # Recompensa por alcanzar la meta
+    else:
+        return -1  # Penalización por cada paso
+
+# Definir la red neuronal
+def create_model():
+    model = models.Sequential([
+        layers.Dense(24, input_dim=state_size, activation='relu'),
+        layers.Dense(24, activation='relu'),
+        layers.Dense(action_size, activation='linear')  # Salida de las acciones
+    ])
+    model.compile(loss='mse', optimizer=optimizers.Adam(learning_rate=0.001))
+    return model
+
+# Parámetros del entorno y del agente
+state_size = 4  # Dependerá de tu sensor y entradas
+action_size = 3  # Girar izquierda, derecha, avanzar
+gamma = 0.95  # Factor de descuento
+epsilon = 1.0  # Exploración vs explotación
+epsilon_min = 0.01
+epsilon_decay = 0.995
+learning_rate = 0.001
+
+# Crear el modelo y el agente
+model = create_model()
+
+# Ejemplo de bucle de entrenamiento
+for e in range(episodes):
+    state = env.reset()  # Reiniciar el entorno
+    state = np.reshape(state, [1, state_size])
+    
+    for time in range(500):  # Limitar los pasos por episodio
+        if np.random.rand() <= epsilon:
+            action = np.random.choice(action_size)  # Acción aleatoria (explorar)
+        else:
+            action = np.argmax(model.predict(state))  # Acción óptima (explotar)
+        
+        next_state, reward, done, _ = env.step(action)  # Realizar acción
+        reward = reward if not done else -10  # Penalizar choques
+        next_state = np.reshape(next_state, [1, state_size])
+        
+        # Actualización de la red neuronal
+        target = reward + gamma * np.amax(model.predict(next_state)[0])
+        target_f = model.predict(state)
+        target_f[0][action] = target
+        model.fit(state, target_f, epochs=1, verbose=0)
+        
+        state = next_state
+        
+        if done:
+            print(f"Episode: {e}/{episodes}, score: {time}, epsilon: {epsilon}")
+            break
+            
+    if epsilon > epsilon_min:
+        epsilon *= epsilon_decay
