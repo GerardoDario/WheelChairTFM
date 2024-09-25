@@ -6,6 +6,6 @@ def generate_launch_description():
         Node(
             package='nav2_bringup',
             executable='nav2_bringup_launch.py',
-            parameters=['path/to/nav2_params.yaml']
+            parameters=['tfm-robot-wheelchair/nav2_params.yaml']
         ),
     ])

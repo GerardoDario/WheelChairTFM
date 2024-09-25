@@ -1,0 +1,15 @@
+/home/gesepulveda/tfm-robot-wheelchair/install/wheelchairpkg/share/ament_index/resource_index/package_run_dependencies/wheelchairpkg
+/home/gesepulveda/tfm-robot-wheelchair/install/wheelchairpkg/share/ament_index/resource_index/parent_prefix_path/wheelchairpkg
+/home/gesepulveda/tfm-robot-wheelchair/install/wheelchairpkg/share/wheelchairpkg/environment/ament_prefix_path.sh
+/home/gesepulveda/tfm-robot-wheelchair/install/wheelchairpkg/share/wheelchairpkg/environment/ament_prefix_path.dsv
+/home/gesepulveda/tfm-robot-wheelchair/install/wheelchairpkg/share/wheelchairpkg/environment/path.sh
+/home/gesepulveda/tfm-robot-wheelchair/install/wheelchairpkg/share/wheelchairpkg/environment/path.dsv
+/home/gesepulveda/tfm-robot-wheelchair/install/wheelchairpkg/share/wheelchairpkg/local_setup.bash
+/home/gesepulveda/tfm-robot-wheelchair/install/wheelchairpkg/share/wheelchairpkg/local_setup.sh
+/home/gesepulveda/tfm-robot-wheelchair/install/wheelchairpkg/share/wheelchairpkg/local_setup.zsh
+/home/gesepulveda/tfm-robot-wheelchair/install/wheelchairpkg/share/wheelchairpkg/local_setup.dsv
+/home/gesepulveda/tfm-robot-wheelchair/install/wheelchairpkg/share/wheelchairpkg/package.dsv
+/home/gesepulveda/tfm-robot-wheelchair/install/wheelchairpkg/share/ament_index/resource_index/packages/wheelchairpkg
+/home/gesepulveda/tfm-robot-wheelchair/install/wheelchairpkg/share/wheelchairpkg/cmake/wheelchairpkgConfig.cmake
+/home/gesepulveda/tfm-robot-wheelchair/install/wheelchairpkg/share/wheelchairpkg/cmake/wheelchairpkgConfig-version.cmake
+/home/gesepulveda/tfm-robot-wheelchair/install/wheelchairpkg/share/wheelchairpkg/package.xml

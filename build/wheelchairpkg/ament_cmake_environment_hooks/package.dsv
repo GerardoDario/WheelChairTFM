@@ -1,0 +1,4 @@
+source;share/wheelchairpkg/local_setup.bash
+source;share/wheelchairpkg/local_setup.dsv
+source;share/wheelchairpkg/local_setup.sh
+source;share/wheelchairpkg/local_setup.zsh
