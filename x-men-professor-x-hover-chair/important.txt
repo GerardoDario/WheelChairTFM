@@ -1,0 +1,4 @@
+Important Info:
+
+This was printed on Zortrax M200 with 0.14 height. Since this is a tight fit i recommend using the same layer height and orientation as I did. 
+IMPORTANT! All models are in 1/10 scale so you need to make them 1000% size!

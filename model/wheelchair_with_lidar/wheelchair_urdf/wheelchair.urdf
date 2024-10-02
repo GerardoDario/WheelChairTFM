@@ -8,12 +8,12 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="model://wheelchair/meshes/Wheelchair.stl" scale="1 1 1"/>
+        <mesh filename="model://wheelchair/wheelchair_urdf/meshes/Wheelchair.stl" scale="1 1 1"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="model://wheelchair/meshes/Wheelchair.stl" scale="1 1 1"/>
+        <mesh filename="model://wheelchair/wheelchair_urdf/meshes/Wheelchair.stl" scale="1 1 1"/>
       </geometry>
       <surface>
         <friction>
