@@ -1,0 +1,14 @@
+{
+  "package_name": "dwb_msgs",
+  "non_idl_tuples": [
+    "/home/gesepulveda/tfm-robot-wheelchair/navigation2/nav2_dwb_controller/dwb_msgs:msg/CriticScore.msg",
+    "/home/gesepulveda/tfm-robot-wheelchair/navigation2/nav2_dwb_controller/dwb_msgs:msg/LocalPlanEvaluation.msg",
+    "/home/gesepulveda/tfm-robot-wheelchair/navigation2/nav2_dwb_controller/dwb_msgs:msg/Trajectory2D.msg",
+    "/home/gesepulveda/tfm-robot-wheelchair/navigation2/nav2_dwb_controller/dwb_msgs:msg/TrajectoryScore.msg",
+    "/home/gesepulveda/tfm-robot-wheelchair/navigation2/nav2_dwb_controller/dwb_msgs:srv/DebugLocalPlan.srv",
+    "/home/gesepulveda/tfm-robot-wheelchair/navigation2/nav2_dwb_controller/dwb_msgs:srv/GenerateTrajectory.srv",
+    "/home/gesepulveda/tfm-robot-wheelchair/navigation2/nav2_dwb_controller/dwb_msgs:srv/GenerateTwists.srv",
+    "/home/gesepulveda/tfm-robot-wheelchair/navigation2/nav2_dwb_controller/dwb_msgs:srv/GetCriticScore.srv",
+    "/home/gesepulveda/tfm-robot-wheelchair/navigation2/nav2_dwb_controller/dwb_msgs:srv/ScoreTrajectory.srv"
+  ]
+}

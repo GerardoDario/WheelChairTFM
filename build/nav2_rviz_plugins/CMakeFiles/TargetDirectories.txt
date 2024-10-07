@@ -1,0 +1,11 @@
+/home/gesepulveda/tfm-robot-wheelchair/build/nav2_rviz_plugins/CMakeFiles/uninstall.dir
+/home/gesepulveda/tfm-robot-wheelchair/build/nav2_rviz_plugins/CMakeFiles/nav2_rviz_plugins_uninstall.dir
+/home/gesepulveda/tfm-robot-wheelchair/build/nav2_rviz_plugins/CMakeFiles/nav2_rviz_plugins.dir
+/home/gesepulveda/tfm-robot-wheelchair/build/nav2_rviz_plugins/CMakeFiles/test.dir
+/home/gesepulveda/tfm-robot-wheelchair/build/nav2_rviz_plugins/CMakeFiles/edit_cache.dir
+/home/gesepulveda/tfm-robot-wheelchair/build/nav2_rviz_plugins/CMakeFiles/rebuild_cache.dir
+/home/gesepulveda/tfm-robot-wheelchair/build/nav2_rviz_plugins/CMakeFiles/list_install_components.dir
+/home/gesepulveda/tfm-robot-wheelchair/build/nav2_rviz_plugins/CMakeFiles/install.dir
+/home/gesepulveda/tfm-robot-wheelchair/build/nav2_rviz_plugins/CMakeFiles/install/local.dir
+/home/gesepulveda/tfm-robot-wheelchair/build/nav2_rviz_plugins/CMakeFiles/install/strip.dir
+/home/gesepulveda/tfm-robot-wheelchair/build/nav2_rviz_plugins/CMakeFiles/nav2_rviz_plugins_autogen.dir
