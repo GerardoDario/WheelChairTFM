@@ -17,7 +17,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://wheelchairpkg/meshes/Wheelchair.stl</uri>
+            <uri>file://../meshes/Wheelchair.stl</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -25,7 +25,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://wheelchairpkg/meshes/Wheelchair.stl</uri>
+            <uri>file://../meshes/Wheelchair.stl</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -137,6 +137,7 @@
       <left_joint>left_wheel_joint</left_joint>
       <right_joint>right_wheel_joint</right_joint>
       <wheel_separation>0.66</wheel_separation>
+      <wheel_diameter>0.31</wheel_diameter>
       <wheel_radius>0.155</wheel_radius>
       <update_rate>100</update_rate>
       <robot_base_frame>base_link</robot_base_frame>
@@ -270,6 +271,7 @@
       <left_joint>left_wheel_joint</left_joint>
       <right_joint>right_wheel_joint</right_joint>
       <wheel_separation>0.5</wheel_separation>
+      <wheel_diameter>0.31</wheel_diameter>
       <wheel_radius>0.15</wheel_radius>
       <odom_frame>odom</odom_frame>
       <base_frame>base_link</base_frame>
