@@ -1034,7 +1034,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://wheelchair/meshes/Wheelchair.stl</uri>
+              <uri>model://wheelchairpkg/meshes/Wheelchair.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1055,7 +1055,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://wheelchair/meshes/Wheelchair.stl</uri>
+              <uri>model://wheelchairpkg/meshes/Wheelchair.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
